@@ -1,5 +1,5 @@
 import React, { useState} from "react";
-//import { slides } from './data'
+import slides  from './data'
 import '../styles/App.css';
 
 const App = () => {
