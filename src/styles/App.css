@@ -1,23 +1,22 @@
 .App {
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 50px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+
 }
 
-#navigation {
-  margin-bottom: 2rem;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-#navigation button {
-  margin-right: 1rem;
-}
-
-#slide {
-  border: 1px solid #eee;
-  padding: 1rem;
-  min-height: 300px;
-}
-
-button {
-  min-width: 80px;
+.carousel{
+  width: 70%;
+  height: 300px;
+  background-color: seagreen;
+  text-align: center;
 }
